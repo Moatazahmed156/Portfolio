@@ -245,13 +245,14 @@
     background-color: var(--section-background);
   }
   .portfolio .portfolio-content {
-    display: grid;
+    display:table;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 30px;
     margin-top: 80px;
   }
   .portfolio .portfolio-content .card {
     background-color: white;
+    margin-bottom: 20px;
   }
   .portfolio .portfolio-content .card img {
     max-width: 100%;
